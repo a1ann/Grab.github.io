@@ -1,0 +1,151 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Грабли ротационные</title>
+    <link rel="stylesheet" href="styles.css">
+</head><style>
+    body {
+    padding: 0;
+    margin: 0;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+form input {
+    width: 500px;
+    margin-top: 5px;
+}
+input.fio {
+    width: 450px;  
+}
+
+
+.input-control {
+    background: url(w256h2561339195649Check256x256.png) no-repeat;
+    background-size: 30px 30px;
+    background-position: 95% 50%;
+    }
+.add-button {
+    width: 100px;
+    height: 30px;
+    
+    }
+    </style><body><h1 style="text-align: center;"><strong>Лабораторная работа № 22</strong></h1>
+<p><strong><em>Тема:&nbsp;</em></strong><em>Подготовка к работе и выполнение регулировок тракторных граблей</em></p>
+<p><em><strong>Цель:&nbsp;</strong>Изучить устройство, назначение, подготовку к работе и выполнение регулировок ротационных граблей ГВБ-6,2</em></p>
+<p><strong>Выполняет учащийся:</strong> <input class="fio" type="text" size="40" placeholder="Введите свои ФИО"> </p>
+<form>
+  <button class="input-control" style="height:100px;width:200px">Входной котроль</button>
+<p>ГВБ-6,2 предназначена для : <input type="text" size="100"></p>
+<br>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+  <tbody>
+  <tr>
+  <td style="width: 62.848%;">Показатель</td>
+  <td style="width: 37.152%;">Значение</td>
+  </tr>
+  <tr>
+  <td style="width: 62.848%;">Марка граблей</td>
+  <td style="width: 37.152%;"><input type="text" size="20"></td>
+  </tr>
+  <tr>
+  <td style="width: 62.848%;">Ширина захвата, м</td>
+  <td style="width: 37.152%;"><input type="text" size="20"></td>
+  </tr>
+  <tr>
+  <td style="width: 62.848%;">Количество роторов, шт</td>
+  <td style="width: 37.152%;"><input type="text" size="20"></td>
+  </tr>
+  <tr>
+  <td style="width: 62.848%;">Производительность, га/ч</td>
+  <td style="width: 37.152%;"><input type="text" size="20"></td>
+  </tr>
+  <tr>
+  <td style="width: 62.848%;">Рабочая скорость, км/ч</td>
+  <td style="width: 37.152%;"><input type="text" size="20"></td>
+  </tr>
+  <tr>
+  <td style="width: 62.848%;">Частота вращения ВОМ, 1/мин</td>
+  <td style="width: 37.152%;"><input type="text" size="20"></td>
+  </tr>
+  <tr>
+  <td style="width: 62.848%;">Ширина сформированного волка</td>
+  <td style="width: 37.152%;"><input type="text" size="20"> </td>
+  </tr>
+  </tbody>
+</table>
+<br>
+<p></p><center><img src="files/0UIRy04UdG4.jpg" alt=""><p></p></center>
+<center> 1 - <input type="text" size="5">;<br>2 - поворотные левая и правая балки;<br>3 - <input type="text" size="15">; <br>
+4 – опорный колёсный ход;<br>5 – <input type="text" size="20">; <br>6 – конические редукторы; 7 – карданные валы; <br>
+8 – <input type="text" size="15">; <br>9 – продольная тяга управления опорным колёсным ходом; 10 – фартук-экран; <br>
+11 – гидросистема подъёма роторов; 12 – светосигнальное оборудование; 13 – защитные устройства и ограждения <br>
+<em>Рис. 1 – Общий вид граблей-валкообразователя ГВБ-6.2</em>
+</center>
+<br>
+<hr>
+<h3>Выберите соотвествие технологической схемы работы граблей с их графическим изображением</h3>
+<table style="border-collapse: collapse; width: 50%; margin: 0 auto;" border="1">
+<tbody>
+<tr>
+<td style="width: 50%;"><img src="files/15YUhzUswHk.jpg" alt=""></td>
+<td style="width: 50%;">
+  а - <select атрибуты="">
+  <option атрибуты="" selected="selected">Сгребание валка</option>
+  <option атрибуты="">Сдваивание валка</option>
+  <option атрибуты="">Оборачивание валка</option>
+  </select>
+  <br>
+  б - <select атрибуты="">
+  <option атрибуты="" selected="selected">Сгребание валка</option>
+  <option атрибуты="">Сдваивание валка</option>
+  <option атрибуты="">Оборачивание валка</option>
+  </select>
+  <br>
+  в - <select атрибуты="">
+  <option атрибуты="" selected="selected">Сгребание валка</option>
+  <option атрибуты="">Сдваивание валка</option>
+  <option атрибуты="">Оборачивание валка</option>
+  
+</select>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Валкообразователь имеет следующие органы управления и приборы:</h3>
+    <!--<input type="button" onclick="add_input();" value="+">-->
+	<form>
+	<div id="inputi"><input name="my_input"></div>
+	</form>
+    <input class="add-button" type="button" onclick="add_input();" value="+">
+	<script>
+	let p = document.getElementById("inputi") ;
+	let length = 1 ;
+	function add_input() {
+	 let new_input = document.createElement("input") ;
+	 new_input.name = "my_input" ;
+	 let div = document.createElement('div') ;
+	 div.appendChild(new_input) ;
+	 p.appendChild(div) ;
+	 length++ ;
+	};
+	</script>
+<h3>Подготовка к работе и регулировки</h3>
+<ol>
+  <li>Регулировка зазора между концами зубьев граблин и почвойосуществляется с помощью механизма: <input type="text" size="30"></li>
+  <li>Ширина валка при сгребании травы из прокоса в валок, в зависимости
+ от урожайности, регулируется от 1,2 до 1,8 м увеличением или 
+уменьшением <input type="text" size="30"></li>
+    <li>Регулировка направления движения </li></ol><br>
+      <p style="text-align: center;"><img style="margin: auto;" src="files/P40Khlz8Vmc.jpg" alt=""></p>
+   
+
+
+<a class="print-doc" href="javascript:(print());"> Распечатать</a>
+<input type="button" value="Печать" onclick="print()"></input>
+</form>
+    <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+
+    </body>
+    
+    </html>

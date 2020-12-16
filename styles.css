@@ -1,0 +1,36 @@
+    body {
+    padding: 0;
+    margin: 0;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+form input {
+    width: 500px;
+    margin-top: 5px;
+}
+input.fio {
+    width: 450px;  
+}
+
+
+.input-control {
+    background: url(w256h2561339195649Check256x256.png) no-repeat;
+    background-size: 30px 30px;
+    font-size: 32px;
+    background-position: 95% 50%;
+    
+    }
+
+.add-button {
+    width: 100px;
+    height: 30px;
+    
+    }
+.input-control,
+.add-button {
+    border-radius: 10%;
+    background-color: lightgray;
+    color: #000;
+}
