@@ -1,18 +1,8 @@
-/*let firstLi = document.querySelector('.first-ul');
-let newLi = document.createElement('input');
+/*
+let changeBG = document.querySelector(".input-control");
 
-/*firstLi.onsubmit = function (evt) {
-  evt.preventDefault();
-  firstLi.append(newLi);
-} */
-/*firstLi.onsubmit = function (evt) {
-  evt.preventDefault();
-  let newLi = document.createElement('input');
-  commentList.append(newLi);
-};
 
-let newElement = document.createElement('input');
-firstLi.append(newElement);
-*/
-/*let InputList = document.querySelector('.input-list');
-let addInput = document.
+ changeBG.onclick = function() {
+    changeBG.classList.remove("first-image");
+    changeBG.classList.add("second-image");
+  };*/

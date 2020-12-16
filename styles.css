@@ -16,12 +16,24 @@ input.fio {
 
 
 .input-control {
-    background: url(w256h2561339195649Check256x256.png) no-repeat;
+    background-repeat: no-repeat;
     background-size: 30px 30px;
     font-size: 32px;
     background-position: 95% 50%;
-    
+    width: 180px;
+    height: 100px;
     }
+.first-image {
+    background: url(w256h2561339195649Check256x256.png) no-repeat;
+    background-size: 30px 30px;
+    background-position: 95% 50%;
+}
+.second-image {
+    background: url(gratis-png-equipo-iconos-encuesta-metodologia-diseno-de-icono-encuesta.png) no-repeat;
+    
+    
+    background-position: 95% 50%;
+}
 
 .add-button {
     width: 100px;
@@ -33,4 +45,12 @@ input.fio {
     border-radius: 10%;
     background-color: lightgray;
     color: #000;
+}
+/*
+.input-control:active {
+    background: url(gratis-png-equipo-iconos-encuesta-metodologia-diseno-de-icono-encuesta.png) no-repeat;
+    background-size: 30px 30px;
+    font-size: 32px;
+    background-position: 95% 50%;
+    
 }
